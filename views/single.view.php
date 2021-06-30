@@ -3,12 +3,11 @@
 <div class="contenedor">
     <div class="post">
         <article>
-            <h2 class="titulo">Titulo del Articulo</h2>
-            <p class="fecha">30 de Junio del 2021</p>
+            <h2 class="titulo"><?php echo $post['titulo']; ?></h2>
+            <p class="fecha"><?php echo fecha($post['fecha']); ?></p>
             <div class="thumb">
-                <a href="#">
-                    <img src="<?php echo RUTA; ?>/imagenes/1.png" alt="">
-                </a>
+                <img src="<?php echo RUTA; ?>/imagenes/<?php echo $post['thumb']; ?>" 
+                alt="<?php echo $post['titulo']; ?>">
             </div>
             <p class="extracto">Este es el contenido del blog del cual estamos utilizando una base de datos para la materia de aplicaciones web. 
             El grado el cual estoy cursando es el 3 cuatrimestre y la carrera que decidí estudiar es la de Desarrollo de software multiplataforma 
