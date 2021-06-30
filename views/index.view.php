@@ -3,7 +3,7 @@
 <div class="contenedor">
     <div class="post">
         <article>
-            <h2 class="titulo">Titulo del Articulo</h2>
+            <h2 class="titulo"><a href="#">Titulo del Articulo</a></h2>
             <p class="fecha">30 de Junio del 2021</p>
             <div class="thumb">
                 <a href="#">
@@ -17,7 +17,7 @@
 
     <div class="post">
         <article>
-            <h2 class="titulo">Titulo del Articulo</h2>
+        <h2 class="titulo"><a href="#">Titulo del Articulo</a></h2>
             <p class="fecha">30 de Junio del 2021</p>
             <div class="thumb">
                 <a href="#">
