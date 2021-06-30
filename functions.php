@@ -36,7 +36,6 @@ function numero_paginas($post_por_pagina, $conexion){
     return $numero_paginas;
 }
 
-
 function id_articulo($id){
     return (int)limpiarDatos($id);
 }
@@ -57,6 +56,12 @@ function fecha($fecha){
 
     $fecha = "$dia de " . $meses[$mes] . " del $year";
     return $fecha;
+}
+
+function comprobarSession(){
+    if (!isset($_SESSION['admin'])) {
+        header('Location: ' . RUTA);
+    }
 }
 
 ?>
