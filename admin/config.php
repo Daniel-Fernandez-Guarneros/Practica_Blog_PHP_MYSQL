@@ -1,6 +1,6 @@
 <?php
-
-define('RUTA', 'http://localhost/Aplicaciones Web/Practica_Blog_PHP_MYSQL');
+//Aqui se actualizo el nombre de la ruta de la carperta Aplicaciones Web para que no tuviera un espacio en blanco
+define('RUTA', 'http://localhost/AplicacionesWeb/Practica_Blog_PHP_MYSQL'); 
 
 $bd_config = array(
     'basedatos' => 'blog_practica',
